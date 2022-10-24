@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>注册页面</title>
+        <!--引入favicon.ico网页图标-->
+        <link rel="shortcut icon" href="favicon.ico" />
+        <!-- 引入css初始化的css文件 -->
+        <link rel="stylesheet" href="css/base.css" />
+        <!-- 引入注册页面css -->
+        <link rel="stylesheet" href="css/register.css" />
+        <!--引入css公共样式的css文件-->
+        <link rel="stylesheet " href="css/common.css " />
+        <script src="js/register.js"></script>
+    </head>
+
+    <body>
+        <!-- header 部分 -->
+        <div class="header">
+            <!-- logo部分 -->
+            <div class="logo">
+                <a href="index.html">
+                    <img src="img/images/logo.png" alt="" />
+                </a>
+            </div>
+        </div>
+        <!-- 注册部分 -->
+        <div class="register w">
+            <h3>
+                注册新用户
+                <em>
+                    已有账号?去
+                    <a href="passport.html">登录</a>
+                </em>
+            </h3>
+            <div class="xinxi">
+                <ul>
+                    <li>
+                        <label for="tel">手机号:</label>
+                        <input type="text" class="inp" id="tel" placeholder="可用于登录和找回密码" />
+                        <span class=""></span>
+                    </li>
+                    <li>
+                        <label for="qq">QQ:</label>
+                        <input type="text" placeholder="长度不小于6位" class="inp" id="qq" />
+                        <span></span>
+                    </li>
+                    <li>
+                        <label for="nc">昵称:</label>
+                        <input type="text" placeholder="请输入2到8个中文汉字" class="inp" id="nc" />
+                        <span></span>
+                    </li>
+                    <li>
+                        <label for="msg">短信验证码:</label>
+                        <input type="text" class="inp" id="msg" placeholder="请输入验证码" />
+                        <span></span>
+                        <button id="btn1">发送验证码</button>
+                    </li>
+                    <li>
+                        <label for="pwd">登录密码:</label>
+                        <input
+                            type="text"
+                            placeholder="请设置登录密码"
+                            class="inp"
+                            id="pwd"
+                            title="长度为6-16位数字，包含大小写" />
+                        <span></span>
+                    </li>
+                    <li class="safe">
+                        安全程度：
+                        <em class="ruo">弱</em>
+                        <em class="zhong">中</em>
+                        <em class="qiang">强</em>
+                    </li>
+                    <li>
+                        <label for="surepwd">确认密码:</label>
+                        <input type="text" class="inp" id="surepwd" />
+                        <span></span>
+                    </li>
+                    <li class="argee">
+                        <input type="checkbox" /> 同意协议并注册
+                        <a href="#">《用户协议》</a>
+                    </li>
+                </ul>
+                <li>
+                    <input
+                        type="submit"
+                        value="完成注册  去登录"
+                        onclick="javascript:window.location.href='passport.html'"
+                        class="over" />
+                </li>
+            </div>
+        </div>
+        <!-- footer start -->
+        <div class="container" style="margin-top: 111px">
+            <div class="w">
+                <p>Copyright &copy; 2022 All Rights Reserved.</p>
+            </div>
+            <div class="w">
+                <div class="fot">
+                    <img src="img/images/weichat.png " title="加微信：ljh-Wanan" />
+                    <img src="img/images/sina.png " title="搜索手机号：18092205430" />
+                    <img src="img/images/qq.png " title="加QQ：810520030" />
+                </div>
+            </div>
+        </div>
+        <!-- footer end -->
+    </body>
+</html>

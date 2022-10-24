@@ -1,0 +1,17 @@
+.gou_t {
+    text-align: center;
+    box-shadow: 0px 0px 50px #00a1ff;
+}
+
+.gou_b h1 {
+    font-size: 20px;
+}
+
+.gou_b p {
+    font-size: 16px;
+    text-indent: 2em;
+}
+
+.gou_b img {
+    cursor: zoom-in;
+}

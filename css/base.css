@@ -1,0 +1,86 @@
+/* 清除元素内外边距*/
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+/* 让所有斜体不倾斜*/
+
+em,
+i {
+    font-style: normal;
+}
+
+
+/*去掉列表前的小点*/
+
+li {
+    list-style: none;
+}
+
+
+/*图片没有边框 去掉图片底侧的空白缝隙*/
+
+img {
+    border: 0;
+    /*ie6*/
+    vertical-align: middle;
+}
+
+
+/* 让button按钮变成小手*/
+
+button {
+    cursor: pointer;
+}
+
+
+/*去掉链接的下划线*/
+
+a {
+    color: #666;
+    text-decoration: none;
+}
+
+
+/* 鼠标经过 a链接 字变色 */
+
+a:hover {
+    color: #e33333;
+}
+
+button,
+input {
+    font-family: "microsoft yahei", sans-serif;
+    /*取消轮廓线 蓝色的*/
+    outline: none;
+}
+
+body {
+    background-color: #fff;
+    font: 12px/1.5 "microsoft yahei", sans-serif;
+    color: #666666;
+}
+
+
+/* hide,
+none {
+    display: none;
+} */
+
+
+/*清除浮动*/
+
+.clearfix:after {
+    visibility: hidden;
+    clear: both;
+    display: block;
+    content: ".";
+    height: 0;
+}
+
+.clearfix {
+    *zoom: 1
+}

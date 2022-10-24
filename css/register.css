@@ -1,0 +1,127 @@
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    position: relative;
+    height: 80px;
+    background-color: #4685c6;
+}
+
+.logo {
+    position: absolute;
+    top: 20px;
+    left: 352px;
+    width: 394px;
+    height: 44px;
+}
+
+.logo a {
+    display: block;
+}
+
+.register {
+    height: 662px;
+    border: 1px solid #cccccc;
+    margin-top: 20px;
+}
+
+.register a {
+    color: #c81623;
+}
+
+.register h3 {
+    font-size: 18px;
+    font-weight: 400;
+    /*400 等同于normal*/
+    height: 40px;
+    border-bottom: 1px solid #ccc;
+    line-height: 40px;
+    padding: 0 10px;
+    background-color: #ececec;
+}
+
+.register h3 em {
+    float: right;
+    font-size: 16px;
+}
+
+.xinxi {
+    width: 600px;
+    height: 400px;
+    margin: 40px auto 0;
+}
+
+.xinxi li {
+    margin-bottom: 15px;
+}
+
+.xinxi label {
+    display: inline-block;
+    width: 100px;
+    height: 36px;
+    line-height: 36px;
+    text-align: right;
+}
+
+.inp {
+    width: 238px;
+    height: 34px;
+    border: 1px solid #cccccc;
+    margin-left: 10px;
+}
+
+.error {
+    color: #df3033;
+}
+
+.success {
+    color: #40b83f;
+}
+
+.safe {
+    padding-left: 175px;
+    color: #b2b2b2;
+}
+
+.safe em {
+    padding: 0 12px;
+    color: #ffffff;
+}
+
+.safe em:nth-child(1) {
+    background-color: #de1111;
+}
+
+.safe em:nth-child(2) {
+    background-color: #40b83f;
+}
+
+.safe em:nth-child(3) {
+    background-color: #f79100;
+}
+
+.argee {
+    padding-top: 20px;
+    padding-left: 100px;
+}
+
+.argee input {
+    vertical-align: middle;
+}
+
+.argee a {
+    color: #1ba1e6;
+}
+
+.over {
+    width: 200px;
+    height: 34px;
+    background-color: #c81623;
+    border: none;
+    color: #ffffff;
+    font-size: 14px;
+    margin: 30px 0 0 130px;
+    cursor: pointer;
+}

@@ -1,0 +1,23 @@
+.jiaocheng_t {
+    height: 157px;
+    border-bottom: 1px solid #ffff99;
+    text-align: center;
+}
+
+.jiaocheng_b h1 {
+    font-size: 20px;
+}
+
+.jiaocheng_b strong {
+    font-size: 20px;
+    color: blue;
+}
+/* 视频教程 */
+.teach {
+    display: flex;
+    flex-wrap: wrap;
+}
+.teach video {
+    width: 390px;
+    margin: 0 10px 10px 0;
+}
